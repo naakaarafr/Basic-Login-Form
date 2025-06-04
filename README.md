@@ -32,7 +32,7 @@ This project showcases a clean and modern login interface with a semi-transparen
 Login Form/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS stylesheet
-├── bg.jpg             # Background image (not included)
+├── bg.jpg             # Background image
 └── README.md          # Project documentation
 ```
 
