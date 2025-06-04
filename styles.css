@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('bg.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginPage{
+    background-color: rgba(205, 126, 126, 0.671);
+    width: 50%;
+    height: 70%;
+    border-radius:30px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:50%;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3rem;
+    font-style: bold;
+}
+input[type="text"],[type="password"]{
+    padding:12px;
+    border:none;
+    border-radius: 10px;
+}
+button{
+    padding: 12px 60px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#ff7e5f, #feb47b);
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+button:hover{
+    padding: 12px 60px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#ff7e5f, #ea9757);
+    cursor: pointer;
+}
